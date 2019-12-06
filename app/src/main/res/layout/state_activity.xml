@@ -8,7 +8,7 @@
     android:paddingLeft="10dp"
     android:paddingRight="10dp"
     android:paddingTop="10dp"
-    android:background="#D5C34D"
+    android:background="#F3E365"
     tools:context=".StateActivity">
 
     <TextView
@@ -32,7 +32,7 @@
                 android:text="STATE"
                 android:gravity="center"
                 android:textStyle="bold"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textColor="#FFFFFF"
                 android:padding="3dip"/>
 
@@ -41,7 +41,7 @@
                 android:gravity="center"
                 android:textStyle="bold"
                 android:textColor="#FFFFFF"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:padding="3dip"/>
         </TableRow>
     </TableLayout>
@@ -92,14 +92,14 @@
                 <TextView
                     android:text="Assam"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
 
                 <TextView
                     android:text="Dispur"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
             </TableRow>
@@ -108,14 +108,14 @@
                 <TextView
                     android:text="Bihar"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
 
                 <TextView
                     android:text="Patna"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
             </TableRow>
@@ -124,7 +124,7 @@
                 <TextView
                     android:text="Chhattisgarh"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
 
@@ -132,7 +132,7 @@
                     android:text="Raipur"
                     android:gravity="center"
                     android:fontFamily="@font/regular"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:textColor="#000"/>
             </TableRow>
 
@@ -141,14 +141,14 @@
                     android:text="Goa"
                     android:gravity="center"
                     android:fontFamily="@font/regular"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:textColor="#000"/>
 
                 <TextView
                     android:text="Panaji"
                     android:gravity="center"
                     android:fontFamily="@font/regular"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:textColor="#000"/>
             </TableRow>
 
@@ -157,13 +157,13 @@
                     android:text="Gujarat"
                     android:fontFamily="@font/regular"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:textColor="#000"/>
 
                 <TextView
                     android:text="GandhiNagar"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
             </TableRow>
@@ -173,14 +173,14 @@
                     android:text="Haryana"
                     android:gravity="center"
                     android:fontFamily="@font/regular"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:textColor="#000"/>
 
                 <TextView
                     android:text="Chandigarh"
                     android:gravity="center"
                     android:fontFamily="@font/regular"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:textColor="#000"/>
             </TableRow>
 
@@ -189,14 +189,14 @@
                     android:text="Himachal Pradesh"
                     android:gravity="center"
                     android:fontFamily="@font/regular"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:textColor="#000"/>
 
                 <TextView
                     android:text="Shimla"
                     android:gravity="center"
                     android:fontFamily="@font/regular"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:textColor="#000"/>
             </TableRow>
 
@@ -204,14 +204,14 @@
                 <TextView
                     android:text="Jharkhand"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
 
                 <TextView
                     android:text="Ranchi"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
             </TableRow>
@@ -220,7 +220,7 @@
                 <TextView
                     android:text="Karnataka"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
 
@@ -228,7 +228,7 @@
                     android:text="Bengaluru"
                     android:gravity="center"
                     android:fontFamily="@font/regular"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:textColor="#000"/>
             </TableRow>
 
@@ -237,14 +237,14 @@
                     android:text="Kerala"
                     android:fontFamily="@font/regular"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:textColor="#000"/>
 
                 <TextView
                     android:text="Thiruvananthapuram"
                     android:gravity="center"
                     android:fontFamily="@font/regular"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:textColor="#000"/>
             </TableRow>
 
@@ -252,14 +252,14 @@
                 <TextView
                     android:text="Madya Pradesh"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
 
                 <TextView
                     android:text="Bhopal"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
             </TableRow>
@@ -268,14 +268,14 @@
                 <TextView
                     android:text="Maharashtra"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
 
                 <TextView
                     android:text="Mumbai"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
             </TableRow>
@@ -284,14 +284,14 @@
                 <TextView
                     android:text="Manipur"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
 
                 <TextView
                     android:text="Imphal"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
             </TableRow>
@@ -300,14 +300,14 @@
                 <TextView
                     android:text="Meghalaya"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
 
                 <TextView
                     android:text="Shillong"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
             </TableRow>
@@ -316,14 +316,14 @@
                 <TextView
                     android:text="Mizoram"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
 
                 <TextView
                     android:text="Aizawi"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
             </TableRow>
@@ -332,14 +332,14 @@
                 <TextView
                     android:text="Nagaland"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
 
                 <TextView
                     android:text="Kohima"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
             </TableRow>
@@ -348,14 +348,14 @@
                 <TextView
                     android:text="Orissa"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
 
                 <TextView
                     android:text="Bubaneshwar"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
             </TableRow>
@@ -365,13 +365,13 @@
                     android:text="Punjab"
                     android:gravity="center"
                     android:fontFamily="@font/regular"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:textColor="#000"/>
 
                 <TextView
                     android:text="Chandigarh"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
             </TableRow>
@@ -380,14 +380,14 @@
                 <TextView
                     android:text="Rajasthan"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
 
                 <TextView
                     android:text="Jaipur"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
             </TableRow>
@@ -396,14 +396,14 @@
                 <TextView
                     android:text="Sikkim"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
 
                 <TextView
                     android:text="Gangtok"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
             </TableRow>
@@ -413,14 +413,14 @@
                     android:text="Tamil Nadu"
                     android:gravity="center"
                     android:fontFamily="@font/regular"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:textColor="#000"/>
 
                 <TextView
                     android:text="Chennai"
                     android:gravity="center"
                     android:fontFamily="@font/regular"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:textColor="#000"/>
             </TableRow>
 
@@ -428,14 +428,14 @@
                 <TextView
                     android:text="Telangana"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
 
                 <TextView
                     android:text="Hyderabad"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
             </TableRow>
@@ -444,14 +444,14 @@
                 <TextView
                     android:text="Tripura"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
 
                 <TextView
                     android:text="Agartala"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
             </TableRow>
@@ -461,13 +461,13 @@
                     android:text="Uttaranchal"
                     android:gravity="center"
                     android:fontFamily="@font/regular"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:textColor="#000"/>
 
                 <TextView
                     android:text="Dehradun"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
             </TableRow>
@@ -477,14 +477,14 @@
                     android:text="Uttar Pradesh"
                     android:gravity="center"
                     android:fontFamily="@font/regular"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:textColor="#000"/>
 
 
                 <TextView
                     android:text="Lucknow"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
             </TableRow>
@@ -493,14 +493,14 @@
                 <TextView
                     android:text="West Bengal"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
 
                 <TextView
                     android:text="Kolkata"
                     android:gravity="center"
-                    android:padding="3dip"
+                    android:padding="3dp"
                     android:fontFamily="@font/regular"
                     android:textColor="#000"/>
             </TableRow>

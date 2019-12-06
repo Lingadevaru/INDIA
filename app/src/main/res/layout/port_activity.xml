@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical"
-    android:background="#D5C34D"
+    android:background="#F3E365"
     android:padding="10dp"
     tools:context=".NewActivity">
-
-    <ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -21,7 +16,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
-                android:textSize="25dp"
+                android:textSize="25sp"
                 android:textColor="#000"
                 android:text="@string/seaports"/>
 
@@ -37,7 +32,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="#000"
                 android:text="1. Kandla Port - Gujarat"/>
@@ -58,7 +53,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="#000"
                 android:text="2. Nhava Sheva Port - Maharashtra"/>
@@ -79,7 +74,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="#000"
                 android:text="3. Mumbai Port - Maharashtra"/>
@@ -100,7 +95,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="#000"
                 android:text="4. Marmagao Port - Goa"/>
@@ -121,7 +116,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="#000"
                 android:text="5. Panambur Port - Karnataka"/>
@@ -142,7 +137,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="#000"
                 android:text="6. Cochin Port - Kerala"/>
@@ -163,7 +158,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="#000"
                 android:text="7. Port Blair - Andaman"/>
@@ -184,7 +179,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="#000"
                 android:text="8. Tuticorin Port - Tamil Nadu"/>
@@ -205,7 +200,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="#000"
                 android:text="9. Chennai Port - Tamil Nadu"/>
@@ -226,7 +221,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="#000"
                 android:text="10. Vizag Port - Andra Pradesh"/>
@@ -247,7 +242,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textColor="#000"
                 android:textStyle="bold"
                 android:text="11. Paradip Port - Orissa"/>
@@ -268,7 +263,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="#000"
                 android:text="12. Haldia Port - West Bengal"/>
@@ -288,4 +283,3 @@
 
         </LinearLayout>
     </ScrollView>
-</LinearLayout>

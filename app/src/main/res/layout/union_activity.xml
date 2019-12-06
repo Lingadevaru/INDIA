@@ -4,19 +4,9 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#D5C34D"
     tools:context=".UnionActivity">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/describe_union"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:textSize="25dp"
-        android:text="@string/under"/>
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -32,18 +22,40 @@
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
                 android:textSize="25dp"
-                android:layout_marginLeft="10dp"
-                android:text="1. Chandigarh"/>
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:src="@drawable/chandigarh"/>
+                android:textColor="#000"
+                android:text="@string/under"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:textColor="#000"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:text="@string/describe_union"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:text="1. Chandigarh"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@mipmap/chandiga"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:textColor="#000"
+                android:justificationMode="inter_word"
                 android:text="@string/describe_union1"/>
 
             <TextView
@@ -51,18 +63,22 @@
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
                 android:textSize="25dp"
-                android:layout_marginLeft="10dp"
+                android:textColor="#000"
                 android:text="2. Dadra and Nagar Haveli"/>
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:src="@drawable/dadra"/>
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@mipmap/nagar"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:textColor="#000"
+                android:justificationMode="inter_word"
                 android:text="@string/describe_union2"/>
 
             <TextView
@@ -70,18 +86,20 @@
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
                 android:textSize="25dp"
-                android:layout_marginLeft="10dp"
+                android:textColor="#000"
                 android:text="3. Daman and Diu"/>
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:src="@drawable/daman"/>
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:src="@mipmap/daman"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:textColor="#000"
+                android:justificationMode="inter_word"
                 android:text="@string/describe_union3"/>
 
             <TextView
@@ -89,18 +107,64 @@
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
                 android:textSize="25dp"
-                android:layout_marginLeft="10dp"
-                android:text="4. Lakshadweep"/>
+                android:textColor="#000"
+                android:text="4. Jammu and Kashmir"/>
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:src="@drawable/lakshadweep"/>
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@mipmap/jk"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:textColor="#000"
+                android:justificationMode="inter_word"
+                android:text="@string/describe_jk"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="#000"
+                android:text="5. Ladakh"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:src="@mipmap/ladakh"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:textColor="#000"
+                android:justificationMode="inter_word"
+                android:text="@string/describe_ladakh"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="#000"
+                android:text="6. Lakshadweep"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:src="@mipmap/laksha"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:textColor="#000"
+                android:justificationMode="inter_word"
                 android:text="@string/describe_union4"/>
 
             <TextView
@@ -108,18 +172,20 @@
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
                 android:textSize="25dp"
-                android:layout_marginLeft="10dp"
-                android:text="5. Pondicherry"/>
+                android:textColor="#000"
+                android:text="7. Pondicherry"/>
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:src="@drawable/pondicherry"/>
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:src="@mipmap/pondi"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:textColor="#000"
+                android:justificationMode="inter_word"
                 android:text="@string/describe_union5"/>
 
             <TextView
@@ -127,18 +193,20 @@
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
                 android:textSize="25dp"
-                android:layout_marginLeft="10dp"
-                android:text="6. Andaman and Nicobar"/>
+                android:textColor="#000"
+                android:text="8. Andaman and Nicobar"/>
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:src="@drawable/andaman"/>
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:src="@mipmap/nicobar"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:textColor="#000"
+                android:justificationMode="inter_word"
                 android:text="@string/describe_union6"/>
 
             <TextView
@@ -146,18 +214,20 @@
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
                 android:textSize="25dp"
-                android:layout_marginLeft="10dp"
-                android:text="7. National Capital Territory of Delhi"/>
+                android:textColor="#000"
+                android:text="9. National Capital Territory of Delhi"/>
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:src="@drawable/delhi"/>
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:src="@mipmap/del"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:textColor="#000"
+                android:justificationMode="inter_word"
                 android:text="@string/describe_union7"/>
 
         </LinearLayout>

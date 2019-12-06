@@ -7,53 +7,52 @@
     tools:context=".MainActivity"
     android:background="@drawable/india_map">
 
-    <TextView android:id = "@+id/text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="INDEX"
-        android:textSize="50sp"
-        android:layout_gravity="center"/>
-
     <Button android:id="@+id/myButton1"
         android:layout_width="270dp"
         android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
         android:text="About India"
+        android:layout_marginTop="50dp"
         android:layout_gravity="center"/>
 
     <Button android:id="@+id/myButton2"
         android:layout_width="270dp"
         android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
         android:text="Indian States"
+        android:layout_marginTop="10dp"
         android:layout_gravity="center"/>
 
     <Button android:id="@+id/myButton3"
         android:layout_width="270dp"
         android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
         android:text="Union Territories"
+        android:layout_marginTop="10dp"
         android:layout_gravity="center"/>
 
     <Button android:id="@+id/myButton4"
         android:layout_width="270dp"
         android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
         android:text="Major Rivers"
+        android:layout_marginTop="10dp"
         android:layout_gravity="center"/>
 
     <Button android:id="@+id/myButton5"
         android:layout_width="270dp"
         android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
         android:text="Sea Ports"
+        android:layout_marginTop="10dp"
         android:layout_gravity="center"/>
 
     <Button android:id="@+id/myButton6"
         android:layout_width="270dp"
         android:layout_height="wrap_content"
-        android:text="Population"
-        android:layout_gravity="center"/>
-
-    <Button android:id="@+id/myButton7"
-        android:layout_width="270dp"
-        android:layout_height="wrap_content"
-        android:text="Population Graph"
+        android:background="@drawable/button_shape"
+        android:text="Awards and Honours"
+        android:layout_marginTop="10dp"
         android:layout_gravity="center"/>
 
 </LinearLayout>

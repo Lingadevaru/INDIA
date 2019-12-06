@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">INDIA</string>
-    <string name="article_title" ><b><font size = "30">ABOUT INDIA\n</font></b></string>
+    <string name="article_title"><b><font size="30">ABOUT INDIA\n</font></b></string>
 
-    <string name="article_description"><font size = "17">\nIndia, also known as the Republic of India,
+    <string name="article_description"><font size="17">\nIndia, also known as the Republic of India,
         is a country in South Asia. It is the seventh-largest country by area, the second-most populous country
         (with over 1,200 crore (1.2 billion) people), and the most populous democracy in the world.
         Bounded by the Indian Ocean on the south, the Arabian Sea on the southwest, and the Bay of Bengal on the
@@ -10,14 +10,14 @@
         and Bangladesh and Myanmar to the east. In the Indian Ocean, India is in the vicinity of Sri Lanka and the Maldives,
         while its Andaman and Nicobar Islands share a maritime border with Thailand and Indonesia.</font></string>
 
-    <string name="describe_states"><b>\nIndia is a federal union comprising 29 states and 7 union territories, for a total of 36
+    <string name="describe_states"><b>\nIndia is a federal union comprising 28 states and 9 union territories, for a total of 37
         entities. The states and union territories are further subdivided into districts and smaller administrative divisions.\n</b></string>
 
-    <string name="describe_union"><b>\nA union territory is a type of administrative division in the Republic of India.
+    <string name="describe_union"><b>A union territory is a type of administrative division in the Republic of India.
         Unlike the states of India, which have their own governments, union territories are federal territories ruled
         directly by the union government (central government), hence the name "union territory".\n</b></string>
 
-    <string name="under"><u>Seven Union Territories</u>\n</string>
+    <string name="under"><u>Nine Union Territories</u></string>
 
     <string name="describe_union1">Chandigarh is one of the best city in India, it is also known as The Green city of India.
         Chandigarh, is the capital of state Haryana and Punjab. It is considered as the first well planned city of India.
@@ -33,6 +33,20 @@
         72km. Daman and Diu is the second smallest among the other union territories in India. It has a mix culture of Indian
         and Portuguese. Daman and Diu is known for its untouched and explorer natural beauty. A trip to the famous beaches,
         Portuguese churches and forts of Daman and Diu can not be forgettable.\n</string>
+
+    <string name="describe_jk">Jammu and Kashmir is a region administered by India as a union territory, and constituting the
+        southern portion of the larger Kashmir region, which has been the subject of a dispute between India and Pakistan since 1947,
+        and between India and China since 1962. The region of Jammu and Kashmir is separated by the Line of Control from the
+        Pakistani-administered territories of Azad Kashmir and Gilgit-Baltistan in the west and north respectively. It lies to
+        the north of the Indian states of Himachal Pradesh and Punjab and to the west of Ladakh, which is also subject to the
+        dispute as a part of Kashmir, and administered by India as a union territory.\n</string>
+
+    <string name="describe_ladakh">Ladakh is a region administered by India as a union territory, and constituting a part of the larger
+        region of Kashmir, which has been the subject of dispute between India, Pakistan, and China since 1947.
+        It is bordered by Tibet to the east, the Indian state of Himachal Pradesh to the south, Jammu and Kashmir and Baltistan to the
+        west, and the southwest corner of Xinjiang across the Karakoram Pass in the far north.
+        It extends from the Siachen Glacier in the Karakoram range to the north to the main Great Himalayas to the south.
+        The eastern end of Ladakh, consisting of the uninhabited Aksai Chin plains, has been under Chinese control since 1962.\n</string>
 
     <string name="describe_union4">Lakshadweep is the smallest union territories in terms of area as well as in population.
         Lakshadweep located off of the coast of Kerala in the Laccadive Sea. The total area is 32 km and Kavaratti is the
@@ -53,11 +67,10 @@
         a Union territory. Delhi is a largest metro green city by area in India and eighth in the world by population.
         Delhi also own NationalCapital Region urban area in which Noida, Gurgaon, Greater Noida, Faridabad and Ghaziabad
         are included.\n</string>
-    
+
     <string name="describe_river"><b>The rivers of India play an important role in the lives of the Indians.
         They provide potable water, cheap transportation, electricity, and the livelihood for a large number of people all
-        over the country. This easily explains why nearly all the major cities of India are located by the banks of rivers.
-        The rivers also have an important role in Hindu Religion and are considered holy by all Hindus in the country.\n</b></string>
+        over the country. This easily explains why nearly all the major cities of India are located by the banks of rivers.\n</b></string>
 
     <string name="describe_port"><b>India has a coastline spanning 7516.6 kilometres, forming one of the biggest peninsulas in the world.
         According to the Ministry of Shipping, around 95 per cent of India s trading by volume and 70 per cent by value is done
@@ -66,7 +79,7 @@
         Andhra Pradesh (12); Odisha (13); Goa (5); West Bengal (1); Daman and Diu (2); Lakshadweep (10); Pondicherry (2); and
         Andaman and Nicobar (23).\n</b></string>
 
-    <string name="seaports"><u>Twelve Major Sea Ports\n</u></string>
+    <string name="seaports"><u>Twelve Major Sea Ports</u></string>
 
     <string name="describe_kandla">Gujarat host the major seaport of west coast, The Kandla Port is situated on
         the Gulf of Kutch near the Gandhidham city in Kutch District of Gujarat. The Port of Kandla is the first special
@@ -84,10 +97,7 @@
         for handling Liquid chemicals, Crude and petroleum products. International container traffic of Mumbai Port is directed
         to the new and big Nhava Sheva port.\n</string>
 
-    <string name="describe_marmagao">"The main port of Goa, Marmagao port is a best natural harbors of India located in South Goa. Marmagao port
-        is one of the leading iron ores exporter port in India and raw materials too.The port of Marmagao is one of the major attraction of Goa
-        along with the beautiful city of Vasco da Gama and international airport Dabolim. The natural harbor of Goa is one of India’s earliest
-        modern ports.\n</string>
+    <string name="describe_marmagao">"The main port of Goa, Marmagao port is a best natural harbors of India located in South Goa. Marmagao port is one of the leading iron ores exporter port in India and raw materials too.The port of Marmagao is one of the major attraction of Goa along with the beautiful city of Vasco da Gama and international airport Dabolim. The natural harbor of Goa is one of India’s earliest modern ports.\n</string>
 
     <string name="describe_panambur">Panambur Port known as the New Mangalore Port, is a seaport located near to Surathkal
         railway station in Dakshina Kannada district of Karnataka. New Mangalore Port is a deep water all weather port and the
@@ -108,7 +118,7 @@
         Port Blair is the principal hub for shipping in the islands of Andaman and the one of the most popular tourist destination
         with several places of interest around like virgin beaches, scuba diving and water sports.\n</string>
 
-    <string name="describe_tuticorin">b>Tuticorin Port is an artificial deep-sea harbour and one of the 12 major ports of India.
+    <string name="describe_tuticorin">Tuticorin Port is an artificial deep-sea harbour and one of the 12 major ports of India.
         It is also the second largest port in Tamil Nadu first is Chennai Port and one of the largest container terminal in India.
         The artificial port of Tuticorin is a all weather port and who receive a large volume of international traffic. Port of
         Tuticorin are a used to be best port for maritime trade and pearl fishery on the bay of Bengal. The port city is also
@@ -119,7 +129,7 @@
         traffic in the east coast of India. Port of the Coromandel Coast handles a variety of cargo containers, automobiles,
         coal,fertilizers and petroleum products. Chennai Port terminals have lighthouses around,Intra port connectivity,
         Pipelines and railway terminus.\n</string>
-    
+
     <string name="describe_vizag">The port city Visakhapatnam is located on the southeast coast of India in the state of
         Andhra Pradesh. Visakhapatnam or Vizag has one of the India’s largest seaport and the oldest shipyard of country.
         The Visakhapatnam harbors is the only Natural harbors in the bay of Bengal shore. Kakinada Port is second port city in
@@ -134,5 +144,36 @@
         West Bengal. Port of Haldia is one of the major trade center for Calcutta and receive bulk cargoes of Chemicals,
         Petrochemicals and oils. Port of Kolkata is also a base of Indian Coast Guard.\n</string>
 
+    <string name="awards">Prize and Awards in India</string>
+
+    <string name="field1">\n<u>Civilian Awards in India</u></string>
+
+    <string name="Bharat_ratna">It is the highest civilian award of India.\nField: It is given for exceptional performance in any field or
+        service.</string>
+
+    <string name="vibhushan">It is the second highest civilian award of India after Bharat Ratna.\nField: Given for the exceptional
+    performance in the field of service, including public service, doctors and scientists.</string>
+
+    <string name="bhushan">It is the third highest civilian award of India after Padma Vibhushan.\nField: Given for distinguish service
+    of a high order</string>
+
+    <string name="shri">It is the fourth highest civilian award of India after Padma Bhushan.\nField: Given for distinguish service</string>
+
+    <string name="field2">\n<u>Arts and Literature Awards of India</u></string>
+
+    <string name="jnanpith">For Indian authors and writers.\nField: Given for outstanding performance in the field of literature.</string>
+
+    <string name="sahitya">For Indian authors and writers.\nField: Given for outstanding writing of books in Indian Language.</string>
+
+    <string name="field3">\n<u>Military Awards of India</u></string>
+
+    <string name="vir">It is the highest military award of India.\nField: Given for showing great courage at wartime.</string>
+
+    <string name="chakra">It is the highest peacetime military award of Inida.\nField: Given for showing great courage during peacetime.</string>
+
+    <string name="field4">\n<u>Games and Sports Awards of India</u></string>
+
+    <string name="rajiv">Its if the highest sporting award of India.\nField: Given for outstanding international performance in a
+        sport for a consecutive 4 years.</string>
 
 </resources>

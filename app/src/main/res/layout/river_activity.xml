@@ -4,12 +4,53 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
+    android:background="#D5C34D"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:paddingBottom="20dp"
     tools:context=".RiverActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:fontFamily="@font/regular"
+        android:justificationMode="inter_word"
         android:text="@string/describe_river"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow android:background="#1D1E1D">
+            <TextView
+                android:text="River"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:text="Source"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:text="Fall into"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:padding="5dp"/>
+        </TableRow>
+    </TableLayout>
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -18,426 +59,539 @@
         <TableLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#ffefd5"
+            android:background="#bdbdbd"
             android:shrinkColumns="1">
-
-            <TableRow android:background="#000000">
-                <TextView
-                    android:text="River"
-                    android:textColor="#ffffff"
-                    android:textStyle="bold"
-                    android:textSize="20dp"
-                    android:layout_margin="5dp"
-                    android:padding="5dp"/>
-
-                <TextView
-                    android:text="Source"
-                    android:textColor="#ffffff"
-                    android:textStyle="bold"
-                    android:textSize="20dp"
-                    android:layout_margin="5dp"
-                    android:padding="5dp"/>
-
-                <TextView
-                    android:text="Fall into"
-                    android:textColor="#ffffff"
-                    android:textStyle="bold"
-                    android:textSize="20dp"
-                    android:layout_margin="5dp"
-                    android:padding="5dp"/>
-            </TableRow>
 
             <TableRow>
                 <TextView
                     android:text="Ganga"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Combined Sources"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Bay of Bengal"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
             </TableRow>
 
             <TableRow>
                 <TextView
                     android:text="Sutlej"
                     android:layout_margin="5dp"
-                    android:padding="10dp"/>
+                    android:padding="10dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Lake Rakshastal in Tibet"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Chenab"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
             </TableRow>
 
             <TableRow>
                 <TextView
                     android:text="Indus"
                     android:layout_margin="5dp"
-                    android:padding="10dp"/>
+                    android:padding="10dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Glacier near Bokhar Chu in the Tibetan region of the Kailash Mountain range"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:fontFamily="@font/regular"
+                    android:padding="5dp"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Arabian Sea"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:fontFamily="@font/regular"
+                    android:padding="5dp"
+                    android:textColor="#000"/>
             </TableRow>
 
             <TableRow>
                 <TextView
                     android:text="Ravi"
                     android:layout_margin="5dp"
-                    android:padding="10dp"/>
+                    android:padding="10dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Chamba district of Himachal Pradesh"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Chenab"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
             </TableRow>
 
             <TableRow>
                 <TextView
                     android:text="Beas"
                     android:layout_margin="5dp"
-                    android:padding="10dp"/>
+                    android:padding="10dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Beas Kund, Himalayas, Himachal Pradesh"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Sutlej"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
             </TableRow>
 
             <TableRow>
                 <TextView
                     android:text="Jhelum"
                     android:layout_margin="5dp"
-                    android:padding="10dp"/>
+                    android:fontFamily="@font/regular"
+                    android:padding="10dp"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Verinag Spring (Pir Panjal Range)"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Chenab"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
             </TableRow>
 
             <TableRow>
                 <TextView
                     android:text="Yamuna"
                     android:layout_margin="5dp"
-                    android:padding="10dp"/>
+                    android:padding="10dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Yamunotri, Champasar Glacier"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Ganga"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
             </TableRow>
 
             <TableRow>
                 <TextView
                     android:text="Chambal"
                     android:layout_margin="5dp"
-                    android:padding="10dp"/>
+                    android:fontFamily="@font/regular"
+                    android:padding="10dp"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Singar Chouri (Mhow in Indore District, Madhya Pradesh)"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:fontFamily="@font/regular"
+                    android:padding="5dp"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Yamuna"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
             </TableRow>
 
             <TableRow>
                 <TextView
                     android:text="Ghagra"
                     android:layout_margin="5dp"
-                    android:padding="10dp"/>
+                    android:padding="10dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Mapchachungo Glacier, Tibet, China"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Ganga"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
             </TableRow>
 
             <TableRow>
                 <TextView
                     android:text="Kosi"
                     android:layout_margin="5dp"
-                    android:padding="10dp"/>
+                    android:fontFamily="@font/regular"
+                    android:padding="10dp"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Sun Kosi, Arun and Tamur form Saptakoshi (Tribenighat, Nepal)"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Ganga"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
             </TableRow>
 
             <TableRow>
                 <TextView
                     android:text="Betwa"
                     android:layout_margin="5dp"
-                    android:padding="10dp"/>
+                    android:padding="10dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Vindhya Range (Kumhra village, Raisen, Madhya Pradesh)"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Yamuna"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
             </TableRow>
 
             <TableRow>
                 <TextView
                     android:text="Son"
                     android:layout_margin="5dp"
-                    android:padding="10dp"/>
+                    android:padding="10dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Amarkantak"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Gulf of Kambat"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
             </TableRow>
 
             <TableRow>
                 <TextView
                     android:text="Brahmaputra"
                     android:layout_margin="5dp"
-                    android:padding="10dp"/>
+                    android:padding="10dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Near Mansarovar Lake"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Bay of Bengal"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
             </TableRow>
 
             <TableRow>
                 <TextView
                     android:text="Narmada"
                     android:layout_margin="5dp"
-                    android:padding="10dp"/>
+                    android:padding="10dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Amarkantak"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Gulf of Kambat"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
             </TableRow>
 
             <TableRow>
                 <TextView
                     android:text="Tapti"
                     android:layout_margin="5dp"
-                    android:padding="10dp"/>
+                    android:padding="10dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Betul District, Madhya Pradesh"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Gulf of Khambat"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
             </TableRow>
 
             <TableRow>
                 <TextView
                     android:text="Mahanadi"
                     android:layout_margin="5dp"
-                    android:padding="10dp"/>
+                    android:padding="10dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Sihawa town in Dhamtari district of Chhattisgarh"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Bay of Bengal"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
             </TableRow>
 
             <TableRow>
                 <TextView
                     android:text="Luni"
                     android:layout_margin="5dp"
-                    android:padding="10dp"/>
+                    android:padding="10dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Pushkar valley of the Aravalli Range, near Ajmer"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:fontFamily="@font/regular"
+                    android:padding="5dp"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Rann of kuchchh"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:fontFamily="@font/regular"
+                    android:padding="5dp"
+                    android:textColor="#000"/>
             </TableRow>
 
             <TableRow>
                 <TextView
                     android:text="Ghaggar"
                     android:layout_margin="5dp"
-                    android:padding="10dp"/>
+                    android:padding="10dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Himalayas"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Near Fatehabad"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
             </TableRow>
 
             <TableRow>
                 <TextView
                     android:text="Sabarmati"
                     android:layout_margin="5dp"
-                    android:padding="10dp"/>
+                    android:padding="10dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Aravalli Range of the Udaipur District of Rajasthan"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Gulf of Khambat"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
             </TableRow>
 
             <TableRow>
                 <TextView
                     android:text="Krishna"
                     android:layout_margin="5dp"
-                    android:padding="10dp"/>
+                    android:fontFamily="@font/regular"
+                    android:padding="10dp"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Near Mahabaleswar, Jor village (Satara district, Maharashtra)"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:fontFamily="@font/regular"
+                    android:padding="5dp"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Bay of Bengal"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
             </TableRow>
 
             <TableRow>
                 <TextView
                     android:text="Godavari"
                     android:layout_margin="5dp"
-                    android:padding="10dp"/>
+                    android:padding="10dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Brahmagiri Mountain, Tryambakeshwar (Nashik, Maharashtra)"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Bay of Bengal"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
             </TableRow>
 
             <TableRow>
                 <TextView
                     android:text="Kaveri"
                     android:layout_margin="5dp"
-                    android:padding="10dp"/>
+                    android:fontFamily="@font/regular"
+                    android:padding="10dp"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Talakaveri, Kodagu, Western Ghats, Karnataka"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:fontFamily="@font/regular"
+                    android:padding="5dp"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Bay of Bengal"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:fontFamily="@font/regular"
+                    android:padding="5dp"
+                    android:textColor="#000"/>
             </TableRow>
 
             <TableRow>
                 <TextView
                     android:text="Tungabadra"
                     android:layout_margin="5dp"
-                    android:padding="10dp"/>
+                    android:padding="10dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Koodli (place where the Thunga and Bhadra rivers meet) (Koodli, Bhadravathi, Karnataka)"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:fontFamily="@font/regular"
+                    android:padding="5dp"
+                    android:textColor="#000"/>
 
                 <TextView
                     android:text="Krishna River"
                     android:layout_margin="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
             </TableRow>
-
         </TableLayout>
+
     </ScrollView>
+
 </LinearLayout>

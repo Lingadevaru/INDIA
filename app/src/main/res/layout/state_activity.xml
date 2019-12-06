@@ -4,26 +4,32 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:background="#D5C34D"
     tools:context=".StateActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:fontFamily="@font/regular"
+        android:justificationMode="inter_word"
         android:text="@string/describe_states"/>
 
-<ScrollView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
     <TableLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:stretchColumns="1"
-        android:background="#ffefd5">
+        android:stretchColumns="*"
+        android:background="#bdbdbd"
+        android:shrinkColumns="*">
 
         <TableRow
-            android:background="#000000">
+            android:background="#1D1E1D">
             <TextView
-                android:text="COUNTRY"
+                android:text="STATE"
                 android:gravity="center"
                 android:textStyle="bold"
                 android:textSize="20dp"
@@ -38,355 +44,467 @@
                 android:textSize="20dp"
                 android:padding="3dip"/>
         </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="Andra Pradesh"
-                android:gravity="center"
-                android:padding="3dip"/>
-
-            <TextView
-                android:text="Hyderabad"
-                android:gravity="center"
-                android:padding="3dip"/>
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="Arunachal Pradesh"
-                android:gravity="center"
-                android:padding="3dip"/>
-
-            <TextView
-                android:text="Itanagar"
-                android:gravity="center"
-                android:padding="3dip"/>
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="Assam"
-                android:gravity="center"
-                android:padding="3dip"/>
-
-            <TextView
-                android:text="Dispur"
-                android:gravity="center"
-                android:padding="3dip"/>
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="Bihar"
-                android:gravity="center"
-                android:padding="3dip"/>
-
-            <TextView
-                android:text="Patna"
-                android:gravity="center"
-                android:padding="3dip"/>
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="Chhattisgarh"
-                android:gravity="center"
-                android:padding="3dip"/>
-
-            <TextView
-                android:text="Raipur"
-                android:gravity="center"
-                android:padding="3dip"/>
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="Goa"
-                android:gravity="center"
-                android:padding="3dip"/>
-
-            <TextView
-                android:text="Panaji"
-                android:gravity="center"
-                android:padding="3dip"/>
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="Gujarat"
-                android:gravity="center"
-                android:padding="3dip"/>
-
-            <TextView
-                android:text="GandhiNagar"
-                android:gravity="center"
-                android:padding="3dip"/>
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="Haryana"
-                android:gravity="center"
-                android:padding="3dip"/>
-
-            <TextView
-                android:text="Chandigarh"
-                android:gravity="center"
-                android:padding="3dip"/>
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="Himachal Pradesh"
-                android:gravity="center"
-                android:padding="3dip"/>
-
-            <TextView
-                android:text="Shimla"
-                android:gravity="center"
-                android:padding="3dip"/>
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="Jammu and Kashmir"
-                android:gravity="center"
-                android:padding="3dip"/>
-
-            <TextView
-                android:text="Srinagar and Jammu"
-                android:gravity="center"
-                android:padding="3dip"/>
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="Jharkhand"
-                android:gravity="center"
-                android:padding="3dip"/>
-
-            <TextView
-                android:text="Ranchi"
-                android:gravity="center"
-                android:padding="3dip"/>
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="Karnataka"
-                android:gravity="center"
-                android:padding="3dip"/>
-
-            <TextView
-                android:text="Bengaluru"
-                android:gravity="center"
-                android:padding="3dip"/>
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="Kerala"
-                android:gravity="center"
-                android:padding="3dip"/>
-
-            <TextView
-                android:text="Thiruvananthapuram"
-                android:gravity="center"
-                android:padding="3dip"/>
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="Madya Pradesh"
-                android:gravity="center"
-                android:padding="3dip"/>
-
-            <TextView
-                android:text="Bhopal"
-                android:gravity="center"
-                android:padding="3dip"/>
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="Maharashtra"
-                android:gravity="center"
-                android:padding="3dip"/>
-
-            <TextView
-                android:text="Mumbai"
-                android:gravity="center"
-                android:padding="3dip"/>
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="Manipur"
-                android:gravity="center"
-                android:padding="3dip"/>
-
-            <TextView
-                android:text="Imphal"
-                android:gravity="center"
-                android:padding="3dip"/>
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="Meghalaya"
-                android:gravity="center"
-                android:padding="3dip"/>
-
-            <TextView
-                android:text="Shillong"
-                android:gravity="center"
-                android:padding="3dip"/>
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="Mizoram"
-                android:gravity="center"
-                android:padding="3dip"/>
-
-            <TextView
-                android:text="Aizawi"
-                android:gravity="center"
-                android:padding="3dip"/>
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="Nagaland"
-                android:gravity="center"
-                android:padding="3dip"/>
-
-            <TextView
-                android:text="Kohima"
-                android:gravity="center"
-                android:padding="3dip"/>
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="Orissa"
-                android:gravity="center"
-                android:padding="3dip"/>
-
-            <TextView
-                android:text="Bubaneshwar"
-                android:gravity="center"
-                android:padding="3dip"/>
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="Punjab"
-                android:gravity="center"
-                android:padding="3dip"/>
-
-            <TextView
-                android:text="Chandigarh"
-                android:gravity="center"
-                android:padding="3dip"/>
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="Rajasthan"
-                android:gravity="center"
-                android:padding="3dip"/>
-
-            <TextView
-                android:text="Jaipur"
-                android:gravity="center"
-                android:padding="3dip"/>
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="Sikkim"
-                android:gravity="center"
-                android:padding="3dip"/>
-
-            <TextView
-                android:text="Gangtok"
-                android:gravity="center"
-                android:padding="3dip"/>
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="Tamil Nadu"
-                android:gravity="center"
-                android:padding="3dip"/>
-
-            <TextView
-                android:text="Chennai"
-                android:gravity="center"
-                android:padding="3dip"/>
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="Telangana"
-                android:gravity="center"
-                android:padding="3dip"/>
-
-            <TextView
-                android:text="Hyderabad"
-                android:gravity="center"
-                android:padding="3dip"/>
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="Tripura"
-                android:gravity="center"
-                android:padding="3dip"/>
-
-            <TextView
-                android:text="Agartala"
-                android:gravity="center"
-                android:padding="3dip"/>
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="Uttaranchal"
-                android:gravity="center"
-                android:padding="3dip"/>
-
-            <TextView
-                android:text="Dehradun"
-                android:gravity="center"
-                android:padding="3dip"/>
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="Uttar Pradesh"
-                android:gravity="center"
-                android:padding="3dip"/>
-
-            <TextView
-                android:text="Lucknow"
-                android:gravity="center"
-                android:padding="3dip"/>
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="West Bengal"
-                android:gravity="center"
-                android:padding="3dip"/>
-
-            <TextView
-                android:text="Kolkata"
-                android:gravity="center"
-                android:padding="3dip"/>
-        </TableRow>
-
     </TableLayout>
-</ScrollView>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1"
+            android:background="#bdbdbd">
+
+            <TableRow>
+                <TextView
+                    android:text="Andra Pradesh"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:text="Hyderabad"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Arunachal Pradesh"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:text="Itanagar"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Assam"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:text="Dispur"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Bihar"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:text="Patna"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Chhattisgarh"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:text="Raipur"
+                    android:gravity="center"
+                    android:fontFamily="@font/regular"
+                    android:padding="3dip"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Goa"
+                    android:gravity="center"
+                    android:fontFamily="@font/regular"
+                    android:padding="3dip"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:text="Panaji"
+                    android:gravity="center"
+                    android:fontFamily="@font/regular"
+                    android:padding="3dip"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Gujarat"
+                    android:fontFamily="@font/regular"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:text="GandhiNagar"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Haryana"
+                    android:gravity="center"
+                    android:fontFamily="@font/regular"
+                    android:padding="3dip"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:text="Chandigarh"
+                    android:gravity="center"
+                    android:fontFamily="@font/regular"
+                    android:padding="3dip"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Himachal Pradesh"
+                    android:gravity="center"
+                    android:fontFamily="@font/regular"
+                    android:padding="3dip"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:text="Shimla"
+                    android:gravity="center"
+                    android:fontFamily="@font/regular"
+                    android:padding="3dip"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Jharkhand"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:text="Ranchi"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Karnataka"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:text="Bengaluru"
+                    android:gravity="center"
+                    android:fontFamily="@font/regular"
+                    android:padding="3dip"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Kerala"
+                    android:fontFamily="@font/regular"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:text="Thiruvananthapuram"
+                    android:gravity="center"
+                    android:fontFamily="@font/regular"
+                    android:padding="3dip"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Madya Pradesh"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:text="Bhopal"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Maharashtra"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:text="Mumbai"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Manipur"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:text="Imphal"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Meghalaya"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:text="Shillong"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Mizoram"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:text="Aizawi"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Nagaland"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:text="Kohima"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Orissa"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:text="Bubaneshwar"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Punjab"
+                    android:gravity="center"
+                    android:fontFamily="@font/regular"
+                    android:padding="3dip"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:text="Chandigarh"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Rajasthan"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:text="Jaipur"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Sikkim"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:text="Gangtok"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Tamil Nadu"
+                    android:gravity="center"
+                    android:fontFamily="@font/regular"
+                    android:padding="3dip"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:text="Chennai"
+                    android:gravity="center"
+                    android:fontFamily="@font/regular"
+                    android:padding="3dip"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Telangana"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:text="Hyderabad"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Tripura"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:text="Agartala"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Uttaranchal"
+                    android:gravity="center"
+                    android:fontFamily="@font/regular"
+                    android:padding="3dip"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:text="Dehradun"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Uttar Pradesh"
+                    android:gravity="center"
+                    android:fontFamily="@font/regular"
+                    android:padding="3dip"
+                    android:textColor="#000"/>
+
+
+                <TextView
+                    android:text="Lucknow"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="West Bengal"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:text="Kolkata"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:fontFamily="@font/regular"
+                    android:textColor="#000"/>
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
 </LinearLayout>

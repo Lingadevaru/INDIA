@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ABOUT INDIA"
+                android:paddingTop="30dp"
+                android:textSize="20dp"
+                android:layout_marginTop="2dp"
+                android:paddingBottom="30dp"
+                android:background="#0778C1"
+                android:textColor="#fff"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/states"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INDIAN STATES"
+                android:textSize="20dp"
+                android:paddingTop="30dp"
+                android:layout_marginTop="2dp"
+                android:paddingBottom="30dp"
+                android:layout_below="@+id/about"
+                android:background="#0778C1"
+                android:textColor="#fff"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/union"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="UNION TERRITORIES"
+                android:paddingTop="30dp"
+                android:textSize="20dp"
+                android:layout_marginTop="2dp"
+                android:paddingBottom="30dp"
+                android:layout_below="@+id/states"
+                android:background="#0778C1"
+                android:textColor="#fff"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/rivers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MAJOR RIVERS"
+                android:paddingTop="30dp"
+                android:textSize="20dp"
+                android:layout_marginTop="2dp"
+                android:paddingBottom="30dp"
+                android:layout_below="@+id/union"
+                android:background="#0778C1"
+                android:textColor="#fff"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/ports"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SEA PORTS"
+                android:paddingTop="30dp"
+                android:textSize="20dp"
+                android:layout_marginTop="2dp"
+                android:paddingBottom="30dp"
+                android:layout_below="@+id/rivers"
+                android:background="#0778C1"
+                android:textColor="#fff"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/awards"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AWARDS AND HONOURS"
+                android:paddingTop="30dp"
+                android:textSize="20dp"
+                android:layout_marginTop="2dp"
+                android:paddingBottom="30dp"
+                android:layout_below="@+id/ports"
+                android:background="#0778C1"
+                android:textColor="#fff"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/rate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rate the App"
+                android:paddingTop="20dp"
+                android:textSize="20dp"
+                android:layout_marginTop="2dp"
+                android:paddingBottom="20dp"
+                android:layout_below="@+id/awards"
+                android:background="#0778C1"
+                android:textColor="#fff"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/terms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terms and Condition"
+                android:paddingTop="20dp"
+                android:textSize="20dp"
+                android:layout_marginTop="2dp"
+                android:paddingBottom="20dp"
+                android:layout_below="@+id/rate"
+                android:background="#0778C1"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
